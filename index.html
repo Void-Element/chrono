@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChronoGent Watches</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+    }
+    header {
+      background-color: #212529;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    header h1 {
+      font-weight: 600;
+    }
+    .watch-img {
+      height: 250px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+    .about-section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ChronoGent Watches</h1>
+    <p>Timeless Style • Modern Precision</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">ChronoGent</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#catalog">Catalog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="container mt-5">
+    <div class="about-section">
+      <h2 class="text-center mb-4">About ChronoGent</h2>
+      <p class="text-center">
+        At <strong>ChronoGent</strong>, we believe a watch is more than a timepiece — it’s a statement.
+        Our collection blends classic charm with modern design, bringing you watches that define
+        elegance, durability, and personality.
+      </p>
+      <p class="text-center">
+        Whether it’s a timeless gold Casio or a sleek silver retro, we make sure every piece
+        reflects your style. Because it’s not just the watch that makes the man —
+        <em>it’s the man that makes the watch.</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- Product Catalog -->
+  <section id="catalog" class="container mt-5">
+    <h2 class="text-center mb-4">Our Collection</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.4lDjVjSpdAL_uGlWFvr82QHaFj?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top watch-img" alt="Casio Gold Watch">
+          <div class="card-body">
+            <h5 class="card-title">Casio A159W Gold</h5>
+            <p class="card-text">Classic digital charm meets golden elegance. Water resistant with LED display.</p>
+            <!--a href="#" class="btn btn-dark">DM to Order</a-->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://www.casio.com/content/dam/casio/product-info/locales/intl/en/timepiece/product/watch/A/A1/A16/A168WA-1/assets/A168WA-1_Seq1.png.transform/color-variation/image.png" class="card-img-top watch-img" alt="Silver Casio Watch">
+          <div class="card-body">
+            <h5 class="card-title">Casio A158W Silver</h5>
+            <p class="card-text">Retro, durable, and stylish — a timeless everyday watch with stopwatch and date display.</p>
+            <!--a href="#" class="btn btn-dark">DM to Order</a-->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm border-0">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.cNuDxL1JTXp0OXcxmHW1igHaE9?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top watch-img" alt="Casio Black Watch">
+          <div class="card-body">
+            <h5 class="card-title">Casio Vintage Black</h5>
+            <p class="card-text">A perfect blend of class and utility — stopwatch, LED, alarm, and everyday toughness.</p>
+            <!--<a href="#" class="btn btn-dark">DM to Order</a-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form action="https://formspree.io/f/xzzjlkje" method="post" class="p-4 shadow-sm bg-white rounded">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" name="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-control">Email</label>
+                <input type="text" name="_replyto" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                   <textarea name="message" class="form-control" id="message" rows="4" placeholder="type your messafe here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ChronoGent Watches | Stay Classic. Stay You.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
